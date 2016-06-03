@@ -1,0 +1,5 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+The .git directory is created to setup meta data to revision track your project.  You need to do this to start using GIT!
+
+k
