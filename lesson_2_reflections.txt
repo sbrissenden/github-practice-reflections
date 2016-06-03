@@ -2,4 +2,6 @@
 
 The .git directory is created to setup meta data to revision track your project.  You need to do this to start using GIT!
 
-k
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area contains information about uncommited changes that you have made to the git repository since the last commit. The staging area represents differences between the checkout (in the repository) and whats actually in the working directory.  The staging area is essential to the concept of revision control --> you need a way to house uncommitted changes that are being developed.
