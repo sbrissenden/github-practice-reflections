@@ -5,3 +5,7 @@ When you want to:
   B. Want to share it with others 
   C. Want to have other contributors
   D. When you want to contriubte to it from multiple client machines.
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Automatic synchronization could break the code that you are currently developing!
