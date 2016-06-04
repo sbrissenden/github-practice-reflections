@@ -9,3 +9,12 @@ When you want to:
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Automatic synchronization could break the code that you are currently developing!
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clone: A local copy of a repository.  Requred for you to get a checkout of the repository onto your machine or to make changes.
+
+Forks: A clone of a hosted repository on the GitHub server.  Create a fork if you have a good reason to split development of from a hosted repository.  Forks maintain linkage back to the original master repository, and make it much easier to facilitate merging code back from the fork to the original repository in the future.
+
+Branches: A parallel thread of checkins that can be created to enable changes to the codebase that are separate from the devlelopment of the trunk.  
+
