@@ -21,3 +21,10 @@ Branches: A parallel thread of checkins that can be created to enable changes to
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This makes it easier to resolve merge commits locally?
+
+5. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Separate branches support: 
+  - Multiple non-working commits of atomic mini-changes when developing a new / complex feature or other complex change
+  - Shielding other developers working on master from your potentially disruptive and non-robust changes until you are ready
+  - Enable making pull requests
